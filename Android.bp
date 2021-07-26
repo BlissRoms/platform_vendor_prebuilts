@@ -1,0 +1,17 @@
+android_app_import {
+    name: "Phonograph",
+    apk: "app/Phonograph.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+}
+
+android_app_import {
+    name: "SimpleGalleryPro",
+    apk: "app/SimpleGalleryPro.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+}
