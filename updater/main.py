@@ -39,3 +39,5 @@ def update_if_needed(module: str, release: ApkRelease):
 fdroid_main_repo = 'https://www.f-droid.org/repo'
 fdroid_microg_repo = 'https://microg.org/fdroid/repo'
 
+update_if_needed('yetCalc', fdroid_recommended_release(fdroid_main_repo, 'yetzio.yetcalc'))
+
