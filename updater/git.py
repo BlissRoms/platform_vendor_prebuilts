@@ -1,8 +1,8 @@
 import subprocess
 
 
-user_name = 'Updater Robot'
-user_email = 'robot@nowhere.invalid'
+user_name = 'Bliss Robot'
+user_email = 'contact@blisslabs.org'
 
 
 def add_commit_push(directory: str, message: str):
